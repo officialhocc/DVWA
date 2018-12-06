@@ -15,13 +15,13 @@ $DBMS = 'MySQL';
 # If you are using MariaDB then you cannot use root, you must use create a dedicated DVWA user.
 #   See README.md for more information on this.
 $_DVWA = array();
-$_DVWA[ 'db_server' ]   = '127.0.0.1';
-$_DVWA[ 'db_database' ] = 'dvwa';
-$_DVWA[ 'db_user' ]     = 'root';
-$_DVWA[ 'db_password' ] = 'p@ssw0rd';
+$_DVWA[ 'db_server' ]   = 'http://dvwa-sql.database.windows.net/';
+$_DVWA[ 'db_database' ] = 'DVWA';
+$_DVWA[ 'db_user' ]     = 'DVWA';
+$_DVWA[ 'db_password' ] = 'Password12!!!';
 
 # Only used with PostgreSQL/PGSQL database selection.
-$_DVWA[ 'db_port '] = '5432';
+$_DVWA[ 'db_port '] = '1433';
 
 # ReCAPTCHA settings
 #   Used for the 'Insecure CAPTCHA' module
